@@ -109,6 +109,9 @@ button img{
     color: gray;
 }
 @media (max-width:1240px){
+    .container{
+        width: 30%;
+    }
     .card img{
         width: 15%;
     }
@@ -120,6 +123,9 @@ button img{
     }
 }
 @media (max-width: 778px){
+    .container{
+        width: 40%;
+    }
     .payment h1{
         font-size: 15px;
     }
@@ -134,6 +140,9 @@ button img{
     }
 }
 @media (max-width: 678px){
+    .container{
+        width: 40%;
+    }
     .two{
         display: none;
     }
@@ -150,11 +159,14 @@ button img{
     }
 }
 @media (max-width: 546px){
+    .container{
+        width: 60%;
+    }
     .card h2{
         display: none;
     }
     .card img{
-        width: 50%;
+        width: 30%;
     }
     .card{
         display: flex;
@@ -165,7 +177,7 @@ button img{
         display: none;
     }
     .one img{
-        width: 50%;
+        width: 30%;
     }
     .one{
         display: flex;
@@ -177,6 +189,9 @@ button img{
     }
 }
 @media (max-width: 385px){
+    .container{
+        width: 70%;
+    }
     .payment h1{
         font-size: 15px;
     }
