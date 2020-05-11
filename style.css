@@ -4,7 +4,7 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-image: url(/img/background.jpg);
+    background-image: url(img/background.jpg);
     background-position-y: -150px;
 }
 .container{
@@ -95,6 +95,9 @@ button{
     background-color: #598bdd;
     border: solid #598bdd 1px;
     color: white;
+}
+button:hover{
+    cursor: pointer;
 }
 button:active{
     transform: translateY(1px);
